@@ -4,8 +4,8 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://github.com/antoniovictormt">
+        <img src="http://localhost:3000/static/media/logo.ba4238d5.png" alt="Logo Esportflix" width="150px" />
       </a>
       <p>
         Orgulhosamente criado durante a
