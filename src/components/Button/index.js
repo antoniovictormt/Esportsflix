@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
     color: var(--white);
     border: 1px solid var(--white);
+    background:  var(--black);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -18,8 +19,19 @@ const Button = styled.button`
     
     &:hover,
     &:focus {
-    opacity: .5;
+    opacity: .5;    
   }
+
+  /*@media (max-width: 800px) {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+    text-align: center;}*/
 `;
 
 export default Button;

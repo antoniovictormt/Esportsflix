@@ -1,22 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/Home';
+import registerVideo from './pages/Register/Video'
+import registerCategory from './pages/Register/Category';
+import pageError404 from './pages/Page404'
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import CadastroVideo from './pages/cadastro/Video'
-import CadastroCategoria from './pages/cadastro/Categoria';
-
-
-const Pagina404 = () => (<div>Página 404</div>)
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastro/video" component={CadastroVideo} />
-      <Route path="/cadastro/category" component={CadastroCategoria} />
-      <Route component={Pagina404} />
+      <Route path="/register/video" component={registerVideo} />
+      <Route path="/register/category" component={registerCategory} />
+      <Route component={pageError404} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
