@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/Home';
-import registerVideo from './pages/Register/Video'
+import registerVideo from './pages/Register/Video';
 import registerCategory from './pages/Register/Category';
-import pageError404 from './pages/Page404'
-
+import pageError404 from './pages/Page404';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,5 +16,5 @@ ReactDOM.render(
       <Route component={pageError404} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../../components/Menu'
+import Menu from '../../components/Menu';
 import inicialData from '../../data/inicial_data.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: '#141414' }}>
       <Menu />
 
       <BannerMain

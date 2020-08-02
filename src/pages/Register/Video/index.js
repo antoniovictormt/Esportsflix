@@ -6,7 +6,7 @@ import Button from '../../../components/Button';
 
 function RegisterCategory() {
   const initialValues = {
-    name: ''
+    name: '',
   };
   const [categories, setCategory] = useState([]);
   const [values, setValues] = useState(initialValues);
@@ -60,7 +60,7 @@ function RegisterCategory() {
           </li>
         ))}
       </ul>
-      <Link to='/register/category'>Register Category</Link>
+      <Link to="/register/category">Register Category</Link>
     </PageDefault>
   );
 }
