@@ -29,7 +29,9 @@ function RegisterCategory() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categories';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categories'
+      : 'https://esportflix.herokuapp.com/categories';
     fetch(URL)
       .then(async (serverResponse) => {
         const response = await serverResponse.json();
