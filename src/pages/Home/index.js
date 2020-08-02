@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Menu from '../../components/Menu';
 import inicialData from '../../data/inicial_data.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
+import categoriesRepository from '../../repositories/categories';
 
 function Home() {
+  useEffect(() => {
+    categoriesRepository.getAllWithVideos();
+  });
+
   return (
     <div style={{ background: '#141414' }}>
       <Menu />

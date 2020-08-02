@@ -4,7 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
-function RegisterCategory() {
+function RegisterVideo() {
   const initialValues = {
     name: '',
   };
@@ -65,4 +65,4 @@ function RegisterCategory() {
   );
 }
 
-export default RegisterCategory;
+export default RegisterVideo;

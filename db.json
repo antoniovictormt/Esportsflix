@@ -2,15 +2,239 @@
   "categories": [
     {
       "id": 1,
-      "name": "Front End",
-      "description": "An interesting category",
-      "color": "#cbd1ff"
+      "title": "League of Legends",
+      "color": "#0808c8",
+      "extra_link": {
+        "text": "League of Legends (LoL) is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.",
+        "url": "https://en.wikipedia.org/wiki/League_of_Legends"
+      }
     },
     {
       "id": 2,
-      "name": "Back End",
-      "description": "Another interesting category",
-      "color": "#cbd1ff"
+      "title": "Country Strike: Global Offensive - CS:GO",
+      "color": "#60606c",
+      "extra_link": {
+        "text": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment.",
+        "url": "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Magic: The Gathering",
+      "color": "#f59512",
+      "extra_link": {
+        "text": "Magic: the Gathering, is a trading card game (TCG) and which in September 2019 received a digital adaptation known as Magic: The Gathering Arena.",
+        "url": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena"
+      }
+    },
+    {
+      "id": 4,
+      "title": "EVO",
+      "color": "#68bae6",
+      "extra_link": {
+        "text": "The Evolution Championship Series, commonly known as Evo, is an annual esports event that focuses exclusively on fighting games.",
+        "url": "https://en.wikipedia.org/wiki/Evolution_Championship_Series"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Pokémon VGC",
+      "color": "#ffcc03 ",
+      "extra_link": {
+        "text": "Pokémon is a game franchise that has game disputes across consoles. Being played in the Junior, Senior and Master categories.",
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Valorant",
+      "color": "#fe4553",
+      "extra_link": {
+        "text": "Valorant is a free multiplayer electronic game to play first person shooter developed and published by Riot Games.",
+        "url": "https://en.wikipedia.org/wiki/Valorant"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "How esports changed the game: From media laughingstock to media craze",
+      "url": "https://www.youtube.com/watch?v=F_GxPXXLc-w"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "G2 vs. FPX | Finals | 2019 World Championship | G2 Esports vs. FunPlus Phoenix",
+      "url": "https://www.youtube.com/watch?v=ojes5ULOqhc"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "FNC vs. IG | Finals | World Championship | Fnatic vs. Invictus Gaming (2018)",
+      "url": "https://www.youtube.com/watch?v=kLM4Pah5BOg"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "SKT vs SSG Grand-Final ALL GAMES FULL | World Championship 2017 | SK Telecom T1 vs Samsung Galaxy",
+      "url": "https://www.youtube.com/watch?v=Wq_vctA-v5M"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "SKT vs SSG All Games Worlds Final, S6 Worlds 2016 Grand Final SK Telecom T1 vs Samsung Galaxy",
+      "url": "https://www.youtube.com/watch?v=wT_uHyOJOMQ"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "SKT vs KOO Worlds FINAL All Games - Full Stream SK Telecom T1 v Koo Tigers World Championship",
+      "url": "https://www.youtube.com/watch?v=_nVEuGf3ya8"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "title": "2014 Worlds Final - Samsung White vs. Star Horn Royal Club - 10/18/14",
+      "url": "https://www.youtube.com/watch?v=bY-hTW1W-DU"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "title": "Worlds 2013 Final",
+      "url": "https://www.youtube.com/watch?v=sGRXIAh41IA"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "title": "TPA vs. AZF (1080p Full HD) - Grand Finals Game 1 - League Of Legends Season 2 World Championship",
+      "url": "https://www.youtube.com/watch?v=AlyqpRhaoj8"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "title": "aAa vs fnatic - Grand Final Season 1 Championship",
+      "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "title": "FURIA VS MIBR BLAST PREMIER SPRING FINALS MD3 PRIMEIRO MAPA INFERNO",
+      "url": "https://www.youtube.com/watch?v=aZLbD2KIXik"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "title": "MLG Major Championship: Columbus 2016 - Luminosity vs NaVi (MD3) - Túnel do Tempo #01",
+      "url": "https://www.youtube.com/watch?v=DxitpJrZg2A"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "title": "CS:GO - SK vs. Liquid [Train] Map 1 - ESL One Cologne 2016 - Grand Final",
+      "url": "https://www.youtube.com/watch?v=AK5RY8W-AcM"
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "title": "$300,000 Grand Finals | Damo da Rosa vs. Carvalho | World Championship XXVI",
+      "url": "https://www.youtube.com/watch?v=0mioiEzAlpw"
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "title": "Nassif vs. Damo da Rosa | Winner Bracket Round 3 | World Championship XXVI",
+      "url": "https://www.youtube.com/watch?v=yAyduTH-FZo"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "title": "Manfield vs. Damo da Rosa | Upper Semifinals | World Championship XXVI",
+      "url": "https://www.youtube.com/watch?v=xqFWZyooIAg"
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "title": "Carvalho vs. Damo da Rosa | Upper Bracket Finals | World Championship XXVI",
+      "url": "https://www.youtube.com/watch?v=xLIyV9Fj26g"
+    },
+    {
+      "id": 18,
+      "categoryId": 4,
+      "title": "Official Evo Moment #37, Daigo vs Justin Evo 2004 in HD",
+      "url": "https://www.youtube.com/watch?v=JzS96auqau0"
+    },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "title": "EVO 2019 Smash Ultimate Grand Finals - TSM | Tweek (Pokemon Trainer) Vs. FOX | MkLeo (Joker)",
+      "url": "https://www.youtube.com/watch?v=m6CrWBOxecY"
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "title": "DBFZ: EVO 2018 SonicFox Vs GO1 (Grand Finals)",
+      "url": "https://www.youtube.com/watch?v=OVvKn7odYzQ"
+    },
+    {
+      "id": 21,
+      "categoryId": 4,
+      "title": "EVO2019 - JWong (Tam Tam) vs BC Kazunoko (Haoumaru) - Samurai Shodown Winners Final",
+      "url": "https://www.youtube.com/watch?v=evLfAryJD3o"
+    },
+    {
+      "id": 22,
+      "categoryId": 4,
+      "title": "Marvel vs Capcom 2 Grand Final - Justin Wong vs Sanford Final Rounds - Evo 2010",
+      "url": "https://www.youtube.com/watch?v=3pwjGP3OljM"
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "title": "2019 Pokémon World Championships: VGC Masters Division Finals",
+      "url": "https://www.youtube.com/watch?v=hBBjcnADWDI"
+    },
+    {
+      "id": 24,
+      "categoryId": 5,
+      "title": "2018 Pokémon World Championships: VGC Masters Division Finals",
+      "url": "https://www.youtube.com/watch?v=ObGnEFujuBE"
+    },
+    {
+      "id": 26,
+      "categoryId": 5,
+      "title": "2017 Pokémon World Championships: VG Masters Finals",
+      "url": "https://www.youtube.com/watch?v=Q9Ujv1AVTm0"
+    },
+    {
+      "id": 27,
+      "categoryId": 5,
+      "title": "2016 Pokémon World Championships: VG Masters Finals",
+      "url": "https://www.youtube.com/watch?v=kKz8imK_IVQ"
+    },
+    {
+      "id": 28,
+      "categoryId": 5,
+      "title": "2015 Pokémon World Championships: VG Masters Finals",
+      "url": "https://www.youtube.com/watch?v=hBUdrHAoESc"
+    },
+    {
+      "id": 29,
+      "categoryId": 5,
+      "title": "2014 Pokémon World Championships: VG Masters Finals",
+      "url": "https://www.youtube.com/watch?v=M7Ki5Fo1FKQ"
+    },
+    {
+      "id": 30,
+      "categoryId": 6,
+      "title": "Valorant Esports Tournament Grand Finals - T1 vs TSM (T1 Valorant Showdown)",
+      "url": "https://www.youtube.com/watch?v=zsn21BAuXl4"
+    },
+    {
+      "id": 31,
+      "categoryId": 6,
+      "title": "Valorant Esports Tournament - TSM vs FaZe (T1 Valorant Invitational)",
+      "url": "https://www.youtube.com/watch?v=sXbpAWDo2Tw"
     }
   ]
 }

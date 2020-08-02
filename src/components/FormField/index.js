@@ -3,11 +3,7 @@ import PropTypes from 'prop-types';
 import { FormFieldWrapper, Label, Input } from './styles';
 
 function FormField({
-  label,
-  type,
-  name,
-  value,
-  onChange,
+  label, type, name, value, onChange,
 }) {
   const fieldId = `id_${name}`;
   const isTypeTextArea = type === 'textarea';

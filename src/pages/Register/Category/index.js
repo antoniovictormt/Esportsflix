@@ -3,47 +3,36 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function RegisterCategory() {
   const initialValues = {
-    name: '',
+    title: '',
     description: '',
     color: '',
   };
+
+  const { handleChange, values, clearForm } = useForm(initialValues);
   const [categories, setCategory] = useState([]);
-  const [values, setValues] = useState(initialValues);
-
-  function setValue(key, value) { // key: name, description, color
-    setValues({
-      ...values,
-      [key]: value, // name: 'value
-    });
-  }
-
-  function handleChange(eventInfo) {
-    const { value, name } = eventInfo.target;
-    setValue(
-      name,
-      value,
-    );
-  }
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categories'
-      : 'https://esportflix.herokuapp.com/categories';
-    fetch(URL)
-      .then(async (serverResponse) => {
-        const response = await serverResponse.json();
-        setCategory([
-          ...response,
-        ]);
-      });
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categories';
+      fetch(URL)
+        .then(async (serverResponse) => {
+          if (serverResponse.ok) {
+            const response = await serverResponse.json();
+            setCategory(response);
+            return;
+          }
+          throw new Error('Unable to load data');
+        });
+    }
   });
 
   return (
     <PageDefault>
-      <h1>Registration Categories: {values.name}</h1>
+      <h1>Registration Categories: {values.title}</h1>
 
       <form onSubmit={function handleSubmit(eventInfo) {
         eventInfo.preventDefault();
@@ -52,7 +41,7 @@ function RegisterCategory() {
           values,
         ]);
 
-        setValues(initialValues);
+        clearForm();
       }}
       >
         <FormField
@@ -91,9 +80,9 @@ function RegisterCategory() {
       )}
 
       <ul>
-        {categories.map((categories, indice) => (
-          <li key={`${categories}${indice}`}>
-            {categories.name}
+        {categories.map((categories) => (
+          <li key={`${categories.title}`}>
+            {categories.title}
           </li>
         ))}
       </ul>
