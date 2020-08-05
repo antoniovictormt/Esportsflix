@@ -40,4 +40,8 @@ display:none;
 
 export const ButtonRegister = styled(Button)`
 margin-right: 15px;
+
+@media (max-width: 800px){
+  margin-top: 15px,
+}
 `;

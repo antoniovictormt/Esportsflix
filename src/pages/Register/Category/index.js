@@ -88,12 +88,6 @@ function RegisterCategory() {
         <ButtonRegister>Register Category</ButtonRegister>
       </form>
 
-      {categories.length === 0 && (
-        <div>
-          Loading...
-        </div>
-      )}
-
     </PageDefault>
   );
 }
