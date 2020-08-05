@@ -5,13 +5,13 @@
       "title": "League of Legends",
       "color": "#0808c8",
       "extra_link": {
-        "text": "League of Legends (LoL) is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS.",
+        "text": "League of Legends is a multiplayer online battle arena (MOBA) video game developed and published by Riot Games for Microsoft Windows and macOS.",
         "url": "https://en.wikipedia.org/wiki/League_of_Legends"
       }
     },
     {
       "id": 2,
-      "title": "Country Strike: Global Offensive - CS:GO",
+      "title": "Country Strike: Global Offensive",
       "color": "#60606c",
       "extra_link": {
         "text": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment.",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "title": "EVO",
+      "title": "Evolution Championship Series",
       "color": "#68bae6",
       "extra_link": {
         "text": "The Evolution Championship Series, commonly known as Evo, is an annual esports event that focuses exclusively on fighting games.",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "title": "Pokémon VGC",
+      "title": "Pokémon Video Game Championships",
       "color": "#ffcc03 ",
       "extra_link": {
         "text": "Pokémon is a game franchise that has game disputes across consoles. Being played in the Junior, Senior and Master categories.",
@@ -53,188 +53,315 @@
         "text": "Valorant is a free multiplayer electronic game to play first person shooter developed and published by Riot Games.",
         "url": "https://en.wikipedia.org/wiki/Valorant"
       }
+    },
+    {
+      "id": 7,
+      "title": "Hearthstone",
+      "color": "#1eadf7",
+      "extra_link": {
+        "text": "Hearthstone is a free online digital collectible card game based on the existing tradition of the Warcraft series, using the same elements, characters and relics.",
+        "url": "https://en.wikipedia.org/wiki/Hearthstone"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Dota 2",
+      "color": "#ff0000",
+      "extra_link": {
+        "text": "Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve, the game is a sequel to Defense of the Ancients (DotA).",
+        "url": "https://en.wikipedia.org/wiki/Dota_2"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Tom Clancy's Rainbow Six Siege",
+      "color": "#231e22",
+      "extra_link": {
+        "text": "Tom Clancy's Rainbow Six Siege is an online tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft.",
+        "url": "https://en.wikipedia.org/wiki/Tom_Clancy's_Rainbow_Six_Siege"
+      }
     }
   ],
   "videos": [
     {
-      "id": 1,
-      "categoryId": 1,
       "title": "How esports changed the game: From media laughingstock to media craze",
-      "url": "https://www.youtube.com/watch?v=F_GxPXXLc-w"
+      "url": "https://www.youtube.com/watch?v=F_GxPXXLc-w",
+      "description": "Vi,deo games, since their explosion in arcades in the 70s, instigated the feeling of competition among those who had fun. Competition is something that can help the person's growth and development, making people have ambitions that make them better and, in video games, this is not much different. From that desire, since the 90s, eSports has grown impressively and creating affection and haste for young people.",
+      "categoryId": 1,
+      "id": 1
     },
     {
-      "id": 2,
-      "categoryId": 1,
       "title": "G2 vs. FPX | Finals | 2019 World Championship | G2 Esports vs. FunPlus Phoenix",
-      "url": "https://www.youtube.com/watch?v=ojes5ULOqhc"
+      "url": "https://www.youtube.com/watch?v=ojes5ULOqhc",
+      "description": "20,19 League of Legends World Championship Finals between G2 Esports vs. FunPlus Phoenix",
+      "categoryId": 1,
+      "id": 2
     },
     {
-      "id": 3,
-      "categoryId": 1,
       "title": "FNC vs. IG | Finals | World Championship | Fnatic vs. Invictus Gaming (2018)",
-      "url": "https://www.youtube.com/watch?v=kLM4Pah5BOg"
+      "url": "https://www.youtube.com/watch?v=kLM4Pah5BOg",
+      "description": "20,18 League of Legends World Championship Finals between Fnatic vs. Invictus Gaming",
+      "categoryId": 1,
+      "id": 3
     },
     {
-      "id": 4,
-      "categoryId": 1,
       "title": "SKT vs SSG Grand-Final ALL GAMES FULL | World Championship 2017 | SK Telecom T1 vs Samsung Galaxy",
-      "url": "https://www.youtube.com/watch?v=Wq_vctA-v5M"
+      "url": "https://www.youtube.com/watch?v=Wq_vctA-v5M",
+      "description": "20,17 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
+      "categoryId": 1,
+      "id": 4
     },
     {
-      "id": 5,
-      "categoryId": 1,
       "title": "SKT vs SSG All Games Worlds Final, S6 Worlds 2016 Grand Final SK Telecom T1 vs Samsung Galaxy",
-      "url": "https://www.youtube.com/watch?v=wT_uHyOJOMQ"
+      "url": "https://www.youtube.com/watch?v=wT_uHyOJOMQ",
+      "description": "20,16 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
+      "categoryId": 1,
+      "id": 5
     },
     {
-      "id": 6,
-      "categoryId": 1,
       "title": "SKT vs KOO Worlds FINAL All Games - Full Stream SK Telecom T1 v Koo Tigers World Championship",
-      "url": "https://www.youtube.com/watch?v=_nVEuGf3ya8"
+      "url": "https://www.youtube.com/watch?v=_nVEuGf3ya8",
+      "description": "20,15 League of Legends World Championship Finals between SK Telecom T1 vs Koo Tigers",
+      "categoryId": 1,
+      "id": 6
     },
     {
-      "id": 7,
-      "categoryId": 1,
       "title": "2014 Worlds Final - Samsung White vs. Star Horn Royal Club - 10/18/14",
-      "url": "https://www.youtube.com/watch?v=bY-hTW1W-DU"
+      "url": "https://www.youtube.com/watch?v=bY-hTW1W-DU",
+      "description": "20,14 League of Legends World Championship Finals between SK Telecom T1 vs Star Horn Royal Club",
+      "categoryId": 1,
+      "id": 7
     },
     {
-      "id": 8,
-      "categoryId": 1,
       "title": "Worlds 2013 Final",
-      "url": "https://www.youtube.com/watch?v=sGRXIAh41IA"
+      "url": "https://www.youtube.com/watch?v=sGRXIAh41IA",
+      "description": "20,14 League of Legends World Championship Finals between SK Telecom T1 vs Royal Club",
+      "categoryId": 1,
+      "id": 8
     },
     {
-      "id": 9,
-      "categoryId": 1,
       "title": "TPA vs. AZF (1080p Full HD) - Grand Finals Game 1 - League Of Legends Season 2 World Championship",
-      "url": "https://www.youtube.com/watch?v=AlyqpRhaoj8"
-    },
-    {
-      "id": 10,
+      "url": "https://www.youtube.com/watch?v=AlyqpRhaoj8",
+      "description": "20,14 League of Legends World Championship Finals between Taipei Assassins vs  Azubu Frost",
       "categoryId": 1,
+      "id": 9
+    },
+    {
       "title": "aAa vs fnatic - Grand Final Season 1 Championship",
-      "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0"
+      "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0",
+      "description": "20,11 League of Legends World Championship Finals between Fnatic vs Against All Authority",
+      "categoryId": 1,
+      "id": 10
     },
     {
-      "id": 11,
-      "categoryId": 2,
+      "title": "aAa vs fnatic - Grand Final Season 1 Championship",
+      "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0",
+      "description": "a",
+      "categoryId": 1,
+      "id": 10
+    },
+    {
       "title": "FURIA VS MIBR BLAST PREMIER SPRING FINALS MD3 PRIMEIRO MAPA INFERNO",
-      "url": "https://www.youtube.com/watch?v=aZLbD2KIXik"
+      "url": "https://www.youtube.com/watch?v=aZLbD2KIXik",
+      "description": "a",
+      "categoryId": 2,
+      "id": 11
     },
     {
-      "id": 12,
-      "categoryId": 2,
       "title": "MLG Major Championship: Columbus 2016 - Luminosity vs NaVi (MD3) - Túnel do Tempo #01",
-      "url": "https://www.youtube.com/watch?v=DxitpJrZg2A"
-    },
-    {
-      "id": 13,
+      "url": "https://www.youtube.com/watch?v=DxitpJrZg2A",
+      "description": "a",
       "categoryId": 2,
+      "id": 12
+    },
+    {
       "title": "CS:GO - SK vs. Liquid [Train] Map 1 - ESL One Cologne 2016 - Grand Final",
-      "url": "https://www.youtube.com/watch?v=AK5RY8W-AcM"
+      "url": "https://www.youtube.com/watch?v=AK5RY8W-AcM",
+      "description": "a",
+      "categoryId": 2,
+      "id": 13
     },
     {
-      "id": 14,
-      "categoryId": 3,
       "title": "$300,000 Grand Finals | Damo da Rosa vs. Carvalho | World Championship XXVI",
-      "url": "https://www.youtube.com/watch?v=0mioiEzAlpw"
+      "url": "https://www.youtube.com/watch?v=0mioiEzAlpw",
+      "description": "a",
+      "categoryId": 3,
+      "id": 14
     },
     {
-      "id": 15,
-      "categoryId": 3,
       "title": "Nassif vs. Damo da Rosa | Winner Bracket Round 3 | World Championship XXVI",
-      "url": "https://www.youtube.com/watch?v=yAyduTH-FZo"
+      "url": "https://www.youtube.com/watch?v=yAyduTH-FZo",
+      "description": "a",
+      "categoryId": 3,
+      "id": 15
     },
     {
-      "id": 16,
-      "categoryId": 3,
       "title": "Manfield vs. Damo da Rosa | Upper Semifinals | World Championship XXVI",
-      "url": "https://www.youtube.com/watch?v=xqFWZyooIAg"
-    },
-    {
-      "id": 17,
+      "url": "https://www.youtube.com/watch?v=xqFWZyooIAg",
+      "description": "a",
       "categoryId": 3,
+      "id": 16
+    },
+    {
       "title": "Carvalho vs. Damo da Rosa | Upper Bracket Finals | World Championship XXVI",
-      "url": "https://www.youtube.com/watch?v=xLIyV9Fj26g"
+      "url": "https://www.youtube.com/watch?v=xLIyV9Fj26g",
+      "description": "a",
+      "categoryId": 3,
+      "id": 17
     },
     {
-      "id": 18,
-      "categoryId": 4,
       "title": "Official Evo Moment #37, Daigo vs Justin Evo 2004 in HD",
-      "url": "https://www.youtube.com/watch?v=JzS96auqau0"
+      "url": "https://www.youtube.com/watch?v=JzS96auqau0",
+      "description": "a",
+      "categoryId": 4,
+      "id": 18
     },
     {
-      "id": 19,
-      "categoryId": 4,
       "title": "EVO 2019 Smash Ultimate Grand Finals - TSM | Tweek (Pokemon Trainer) Vs. FOX | MkLeo (Joker)",
-      "url": "https://www.youtube.com/watch?v=m6CrWBOxecY"
+      "url": "https://www.youtube.com/watch?v=m6CrWBOxecY",
+      "description": "a",
+      "categoryId": 4,
+      "id": 19
     },
     {
-      "id": 20,
-      "categoryId": 4,
       "title": "DBFZ: EVO 2018 SonicFox Vs GO1 (Grand Finals)",
-      "url": "https://www.youtube.com/watch?v=OVvKn7odYzQ"
+      "url": "https://www.youtube.com/watch?v=OVvKn7odYzQ",
+      "description": "a",
+      "categoryId": 4,
+      "id": 20
     },
     {
-      "id": 21,
-      "categoryId": 4,
       "title": "EVO2019 - JWong (Tam Tam) vs BC Kazunoko (Haoumaru) - Samurai Shodown Winners Final",
-      "url": "https://www.youtube.com/watch?v=evLfAryJD3o"
-    },
-    {
-      "id": 22,
+      "url": "https://www.youtube.com/watch?v=evLfAryJD3o",
+      "description": "a",
       "categoryId": 4,
+      "id": 21
+    },
+    {
       "title": "Marvel vs Capcom 2 Grand Final - Justin Wong vs Sanford Final Rounds - Evo 2010",
-      "url": "https://www.youtube.com/watch?v=3pwjGP3OljM"
+      "url": "https://www.youtube.com/watch?v=3pwjGP3OljM",
+      "description": "a",
+      "categoryId": 4,
+      "id": 22
     },
     {
-      "id": 23,
-      "categoryId": 5,
       "title": "2019 Pokémon World Championships: VGC Masters Division Finals",
-      "url": "https://www.youtube.com/watch?v=hBBjcnADWDI"
+      "url": "https://www.youtube.com/watch?v=hBBjcnADWDI",
+      "description": "a",
+      "categoryId": 5,
+      "id": 23
     },
     {
-      "id": 24,
-      "categoryId": 5,
       "title": "2018 Pokémon World Championships: VGC Masters Division Finals",
-      "url": "https://www.youtube.com/watch?v=ObGnEFujuBE"
+      "url": "https://www.youtube.com/watch?v=ObGnEFujuBE",
+      "description": "a",
+      "categoryId": 5,
+      "id": 24
     },
     {
-      "id": 26,
-      "categoryId": 5,
       "title": "2017 Pokémon World Championships: VG Masters Finals",
-      "url": "https://www.youtube.com/watch?v=Q9Ujv1AVTm0"
+      "url": "https://www.youtube.com/watch?v=Q9Ujv1AVTm0",
+      "description": "a",
+      "categoryId": 5,
+      "id": 26
     },
     {
-      "id": 27,
-      "categoryId": 5,
       "title": "2016 Pokémon World Championships: VG Masters Finals",
-      "url": "https://www.youtube.com/watch?v=kKz8imK_IVQ"
+      "url": "https://www.youtube.com/watch?v=kKz8imK_IVQ",
+      "description": "a",
+      "categoryId": 5,
+      "id": 27
     },
     {
-      "id": 28,
-      "categoryId": 5,
       "title": "2015 Pokémon World Championships: VG Masters Finals",
-      "url": "https://www.youtube.com/watch?v=hBUdrHAoESc"
-    },
-    {
-      "id": 29,
+      "url": "https://www.youtube.com/watch?v=hBUdrHAoESc",
+      "description": "a",
       "categoryId": 5,
+      "id": 28
+    },
+    {
       "title": "2014 Pokémon World Championships: VG Masters Finals",
-      "url": "https://www.youtube.com/watch?v=M7Ki5Fo1FKQ"
+      "url": "https://www.youtube.com/watch?v=M7Ki5Fo1FKQ",
+      "description": "a",
+      "categoryId": 5,
+      "id": 29
     },
     {
-      "id": 30,
-      "categoryId": 6,
       "title": "Valorant Esports Tournament Grand Finals - T1 vs TSM (T1 Valorant Showdown)",
-      "url": "https://www.youtube.com/watch?v=zsn21BAuXl4"
+      "url": "https://www.youtube.com/watch?v=zsn21BAuXl4",
+      "description": "a",
+      "categoryId": 6,
+      "id": 30
     },
     {
-      "id": 31,
-      "categoryId": 6,
       "title": "Valorant Esports Tournament - TSM vs FaZe (T1 Valorant Invitational)",
-      "url": "https://www.youtube.com/watch?v=sXbpAWDo2Tw"
+      "url": "https://www.youtube.com/watch?v=sXbpAWDo2Tw",
+      "description": "a",
+      "categoryId": 6,
+      "id": 31
+    },
+    {
+      "title": "FURIA VS MIBR BLAST PREMIER SPRING FINALS MD3 SEGUNDO MAPA VERTIGO",
+      "url": "https://www.youtube.com/watch?v=orpMTOyvZWw",
+      "description": "a",
+      "categoryId": 2,
+      "id": 32
+    },
+    {
+      "title": "Paulo Vitor Damo da Rosa vs. Ondřej Stráský - Finals - 2019 Mythic Championship VI",
+      "url": "https://www.youtube.com/watch?v=bROudWjOfSg",
+      "description": "a",
+      "categoryId": 3,
+      "id": 33
+    },
+    {
+      "title": "Furia Vs Mibr Esl Pro League Season 11 Md3 Terceiro Mapa MIrage",
+      "url": "https://www.youtube.com/watch?v=ixUXBAKj9UA",
+      "description": "a",
+      "categoryId": 2,
+      "id": 34
+    },
+    {
+      "title": "SKT vs G2 | Semifinal Game 1 | World Championship | SK Telecom T1 vs G2 Esports (2019)",
+      "url": "https://www.youtube.com/watch?v=zDUkrxbQj1s",
+      "description": "First semifinal game of the 2019 League of Legends World Championship between SK Telecom T1 x G2 Esports",
+      "categoryId": 1,
+      "id": 35
+    },
+    {
+      "title": "China vs Brazil - Finals - 2018 Hearthstone Global Games - Blizzcon",
+      "url": "https://www.youtube.com/watch?v=BjQGbSuUItw",
+      "description": "China and Brazil face off in the Finals Match of the 2018 Hearthstone Global Games at BlizzCon.",
+      "categoryId": 7,
+      "id": 36
+    },
+    {
+      "title": "Rainbow Six Pro League - Atlantic City Finals - Team Liquid vs. PENTA Sports - Grand Final",
+      "url": "https://www.youtube.com/watch?v=ouy5f1K1nrY",
+      "description": "Rainbow Six Pro League Year 3, season 7 finals at Atlantic City, Grand Final between Team Liquid vs. PENTA Sports.",
+      "categoryId": 9,
+      "id": 37
+    },
+    {
+      "title": "OG vs Liquid Game 1 | Grand Final The International 2019 | Dota 2 TI9 LIVE | The Championship",
+      "url": "https://www.youtube.com/watch?v=sQh8nnB-0BU",
+      "description": "The first game of the Grand Final The International 2019 between OG vs Liquid Game.",
+      "categoryId": 8,
+      "id": 38
+    },
+    {
+      "title": "OG vs Liquid Game 2 | Grand Final The International 2019 | Dota 2 TI9 LIVE | The Championship",
+      "url": "https://www.youtube.com/watch?v=q-pruCX6rwI",
+      "description": "The second game of the Grand Final The International 2019 between OG vs Liquid Game.",
+      "categoryId": 8,
+      "id": 39
+    },
+    {
+      "title": "OG vs Liquid Game 3 | Grand Final The International 2019 | Dota 2 TI9 LIVE | The Championship",
+      "url": "https://www.youtube.com/watch?v=tCip47nTNJQ",
+      "description": "The third game of the Grand Final The International 2019 between OG vs Liquid Game.",
+      "categoryId": 8,
+      "id": 40
     }
   ]
 }

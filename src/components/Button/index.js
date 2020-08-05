@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
-    color: var(--primary);
+export const Button = styled.button`
+    color: var(--white);
     border: 1px solid var(--white);
     background:  var(--black);
     box-sizing: border-box;
@@ -19,7 +19,7 @@ const Button = styled.button`
     
     &:hover,
     &:focus {
-    opacity: .5;    
+    opacity: .5;  
   }
 
   /*@media (max-width: 800px) {
@@ -34,4 +34,10 @@ const Button = styled.button`
     text-align: center;}*/
 `;
 
-export default Button;
+export const NewButton = styled(Button)`
+display:none;
+`;
+
+export const ButtonRegister = styled(Button)`
+margin-right: 15px;
+`;

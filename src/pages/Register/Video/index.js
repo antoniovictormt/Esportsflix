@@ -1,66 +1,98 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import { ButtonRegister } from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import videosRepository from '../../../repositories/videos';
+import categoriesRespository from '../../../repositories/categories';
 
 function RegisterVideo() {
-  const initialValues = {
-    name: '',
-  };
-  const [categories, setCategory] = useState([]);
-  const [values, setValues] = useState(initialValues);
+  const history = useHistory();
+  const [categories, setCategories] = useState([]);
+  const categoryTitles = categories.map(({ title }) => title);
+  const { handleChange, values } = useForm({
+    id: '',
+    category: '',
+    title: '',
+    url: '',
+    description: '',
+  });
 
-  function setValue(key, value) { // key: name, description, color
-    setValues({
-      ...values,
-      [key]: value, // name: 'value
-    });
-  }
+  useEffect(() => {
+    categoriesRespository
+      .getAll()
+      .then((categoriesFromServer) => {
+        setCategories(categoriesFromServer);
+      });
+  }, []);
 
-  function handleChange(eventInfo) {
-    const { value, name } = eventInfo.target;
-    setValue(
-      name,
-      value,
-    );
-  }
+  // eslint-disable-next-line no-console
+  // console.log(categoryTitles);
 
   return (
     <PageDefault>
-      <h1>Registration Video: {values.name}</h1>
+      <h1>Registration Video</h1>
 
-      <form onSubmit={function handleSubmit(eventInfo) {
+      <form onSubmit={(eventInfo) => {
         eventInfo.preventDefault();
-        setCategory([
-          ...categories,
-          values,
-        ]);
+        const chooseCategory = categories.find((category) => category.title === values.category);
 
-        setValues(initialValues);
+        // console.log('chooseCategory', chooseCategory);
+        // eslint-disable-next-line no-alert
+        alert('Sucessful Registrarion');
+        videosRepository.create({
+          title: values.title,
+          url: values.url,
+          description: values.description,
+          categoryId: chooseCategory.id,
+        })
+          .then(() => {
+            history.push('/');
+          });
       }}
       >
         <FormField
-          label="Name of the video"
+          label="Category"
           type="text"
-          name="name"
-          value={values.name}
+          name="category"
+          value={values.category}
+          onChange={handleChange}
+          choices={categoryTitles}
+        />
+
+        <FormField
+          label="Name of the Video"
+          type="text"
+          name="title"
+          value={values.title}
           onChange={handleChange}
         />
 
-        <Button>
-          Register
-        </Button>
+        <FormField
+          label="URL of the video"
+          type="url"
+          name="url"
+          value={values.url}
+          onChange={handleChange}
+        />
+
+        <FormField
+          label="Description"
+          type="textarea"
+          name="description"
+          value={values.description}
+          onChange={handleChange}
+        />
+
+        <div>
+          <ButtonRegister className="register">Register Video</ButtonRegister>
+          <Link to="/register/category">
+            <ButtonRegister className="register">Register New Category</ButtonRegister>
+          </Link>
+        </div>
       </form>
 
-      <ul>
-        {categories.map((categories, indice) => (
-          <li key={`${categories}${indice}`}>
-            {categories.name}
-          </li>
-        ))}
-      </ul>
-      <Link to="/register/category">Register Category</Link>
     </PageDefault>
   );
 }

@@ -1,23 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
-import Menu from '../Menu';
+import { Link } from 'react-router-dom';
+import { Main } from './styles';
+import Logo from '../../assets/img/logo.png';
+import { Button } from '../Button';
 import Footer from '../Footer';
-
-const Main = styled.main`
-    background-color: var(--black);
-    color: var(--white);
-    flex: 1;
-    padding-top: 50px;
-    padding-left: 5%;
-    padding-left: 5%;
-`;
+import '../Menu/menu.css';
 
 // eslint-disable-next-line react/prop-types
-function PageDefault({ children }) {
+function PageDefault({ children, paddingAll }) {
   return (
     <>
-      <Menu />
-      <Main>
+      <nav className="Menu">
+        <Link to="/">
+          <img className="Logo" src={Logo} alt="Esportsflix Logo" />
+        </Link>
+
+        <Button as={Link} className="ButtonLink" to="/register/video">
+          New Video
+        </Button>
+      </nav>
+      <Main paddingAll={paddingAll}>
         {children}
       </Main>
       <Footer />

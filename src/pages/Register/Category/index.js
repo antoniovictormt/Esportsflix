@@ -1,63 +1,64 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import { ButtonRegister } from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriesRespository from '../../../repositories/categories';
 
 function RegisterCategory() {
-  const initialValues = {
+  const history = useHistory();
+  const [categories, setCategories] = useState([]);
+  const categoryTitles = categories.map(({ title }) => title);
+  const { handleChange, values } = useForm({
+    id: '',
+    category: '',
     title: '',
-    description: '',
     color: '',
-  };
-
-  const { handleChange, values, clearForm } = useForm(initialValues);
-  const [categories, setCategory] = useState([]);
+    extra_link: {
+      text: '',
+      url: '',
+    },
+  });
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categories';
-      fetch(URL)
-        .then(async (serverResponse) => {
-          if (serverResponse.ok) {
-            const response = await serverResponse.json();
-            setCategory(response);
-            return;
-          }
-          throw new Error('Unable to load data');
-        });
-    }
-  });
+    categoriesRespository
+      .getAll()
+      .then((categoriesFromServer) => {
+        setCategories(categoriesFromServer);
+      });
+  }, []);
 
   return (
     <PageDefault>
-      <h1>Registration Categories: {values.title}</h1>
+      <h1>Registration Categories</h1>
 
-      <form onSubmit={function handleSubmit(eventInfo) {
+      <form onSubmit={(eventInfo) => {
         eventInfo.preventDefault();
-        setCategory([
-          ...categories,
-          values,
-        ]);
 
-        clearForm();
+        // eslint-disable-next-line no-alert
+        alert('Sucessful Registrarion');
+        categoriesRespository.create({
+          id: values.id,
+          title: values.title,
+          color: values.color,
+          extra_link: {
+            text: values.text,
+            url: values.url,
+          },
+        })
+          .then(() => {
+            history.push('/');
+          });
       }}
       >
         <FormField
-          label="Name of the Category"
+          label="Title of the Category"
           type="text"
-          name="name"
-          value={values.name}
+          name="title"
+          value={values.title}
           onChange={handleChange}
-        />
-
-        <FormField
-          label="Description"
-          type="textarea"
-          name="description"
-          value={values.description}
-          onChange={handleChange}
+          choices={categoryTitles}
         />
 
         <FormField
@@ -68,9 +69,23 @@ function RegisterCategory() {
           onChange={handleChange}
         />
 
-        <Button>
-          Register
-        </Button>
+        <FormField
+          label="Description"
+          type="textarea"
+          name="text"
+          value={values.text}
+          onChange={handleChange}
+        />
+
+        <FormField
+          label="URL of the Category"
+          type="url"
+          name="url"
+          value={values.url}
+          onChange={handleChange}
+        />
+
+        <ButtonRegister>Register Category</ButtonRegister>
       </form>
 
       {categories.length === 0 && (
@@ -79,14 +94,6 @@ function RegisterCategory() {
         </div>
       )}
 
-      <ul>
-        {categories.map((categories) => (
-          <li key={`${categories.title}`}>
-            {categories.title}
-          </li>
-        ))}
-      </ul>
-      <Link to="/register/video">Register Video</Link>
     </PageDefault>
   );
 }
