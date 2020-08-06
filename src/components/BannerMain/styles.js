@@ -10,8 +10,8 @@ export const ContentAreaContainer = styled.section`
   position: relative;
   z-index: 10;
   @media (max-width: 800px) {
-    padding-top: 100px;
-    flex-direction: column;
+    padding-top: 25px;
+    flex-direction: row;
   }
 `;
 
@@ -31,7 +31,6 @@ ContentAreaContainer.Category = styled.h1`
   font-weight: normal;
   font-size: 60px;
   line-height: 70px;
-  display: flex;
   align-items: center;
   text-align: center;
   display: inline-block; 
@@ -55,12 +54,13 @@ ContentAreaContainer.Description = styled.p`
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
+  text-align: center;
   @media (max-width: 800px) {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
   }
 `;
@@ -73,8 +73,7 @@ export const BannerMainContainer = styled.section`
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {
-    height: auto;
-    min-height: 50vh;
+    height: 250px;
   }
   &:after,
   &:before {
@@ -94,29 +93,5 @@ export const BannerMainContainer = styled.section`
   &:after {
     bottom: 0;
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
-  }
-`;
-
-export const WatchButton = styled.button`
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  cursor: pointer;
-  padding: 16px 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  outline: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
-  border-color: var(--black);
-  transition: opacity .3s;
-  display: none;
-  margin: 0 auto;
-  @media (max-width: 800px) {
-    display: block;
   }
 `;

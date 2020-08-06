@@ -41,7 +41,7 @@ display:none;
 export const ButtonRegister = styled(Button)`
 margin-right: 15px;
 
-@media (max-width: 800px){
+@media (max-height: 600px){
   margin-top: 15px,
 }
 `;

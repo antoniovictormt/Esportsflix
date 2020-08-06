@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
+import { useHistory } from 'react-router-dom';
+import PageDefaultCategory from '../../../components/PageDefaultCategory';
 import FormField from '../../../components/FormField';
 import { ButtonRegister } from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
@@ -31,7 +31,7 @@ function RegisterVideo() {
   // console.log(categoryTitles);
 
   return (
-    <PageDefault>
+    <PageDefaultCategory>
       <h1>Registration Video</h1>
 
       <form onSubmit={(eventInfo) => {
@@ -87,13 +87,10 @@ function RegisterVideo() {
 
         <div>
           <ButtonRegister className="register">Register Video</ButtonRegister>
-          <Link to="/register/category">
-            <ButtonRegister className="register">Register New Category</ButtonRegister>
-          </Link>
         </div>
       </form>
 
-    </PageDefault>
+    </PageDefaultCategory>
   );
 }
 

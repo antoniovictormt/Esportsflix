@@ -6,7 +6,7 @@ export const VideoContainer = styled.div`
   width: 100%;
   padding-top: 56.25%;
   @media (max-width: 800px) {
-    display: none;
+    display: flex;
   }
 `;
 
@@ -18,4 +18,9 @@ export const ResponsiveIframe = styled.iframe`
   right: 0;
   width: 100%;
   height: 100%;
+  
+  @media (max-width: 800px) {
+    width: 450px;
+    height: 200px;
+  }
 `;
