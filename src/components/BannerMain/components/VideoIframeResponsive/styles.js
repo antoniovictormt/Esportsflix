@@ -5,10 +5,20 @@ export const VideoContainer = styled.div`
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
-  @media (max-width: 800px) {
-    justify-content: space-between;
+
+  @media (max-width: 400px) {    
     width: 250px;
-    height: 100px;
+    height: 150px;
+  }
+
+  @media (min-width: 401px) and (max-width: 650px) {
+    width: 250px;
+    height: 150px;
+  }
+
+  @media (min-width: 650px) and (max-width: 800px) {
+    width: 300px;
+    height: 200px;
   }
 `;
 
@@ -20,4 +30,8 @@ export const ResponsiveIframe = styled.iframe`
   right: 0;
   width: 100%;
   height: 100%;
+  
+  @media (min-width: 650px) and (max-width: 950px) {
+    margin-top: 20px;
+  }
 `;

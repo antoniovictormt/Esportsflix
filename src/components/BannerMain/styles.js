@@ -60,9 +60,9 @@ ContentAreaContainer.Title = styled.h2`
   margin-bottom: 32px;
   text-align: center;
   @media (max-width: 800px) {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 25px;
   }
 `;
 
