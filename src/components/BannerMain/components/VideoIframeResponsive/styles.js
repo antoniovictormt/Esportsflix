@@ -6,9 +6,9 @@ export const VideoContainer = styled.div`
   width: 100%;
   padding-top: 56.25%;
 
-  @media (max-width: 400px) {    
-    width: 250px;
-    height: 150px;
+  @media (min-width: 250px) and (max-width: 400px) {    
+    width: 125px;
+    height: 75px;
   }
 
   @media (min-width: 401px) and (max-width: 650px) {
