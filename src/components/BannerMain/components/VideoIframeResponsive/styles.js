@@ -6,6 +6,7 @@ export const VideoContainer = styled.div`
   width: 100%;
   padding-top: 56.25%;
   @media (max-width: 800px) {
+    justify-content: space-between;
     width: 250px;
     height: 100px;
   }
