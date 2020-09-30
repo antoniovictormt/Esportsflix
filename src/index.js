@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './index.css';
+import './styles/index.css';
 import Home from './pages/Home';
 import registerVideo from './pages/Register/Video';
 import registerCategory from './pages/Register/Category';

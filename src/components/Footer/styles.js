@@ -10,6 +10,16 @@ export const FooterBase = styled.footer`
   padding-bottom: 32px;
   color: var(--white);
   text-align: center;
+  
+  a {
+    text-decoration: none;
+
+      &:hover {
+      opacity: 0.5;
+    }
+  }
+  
+  
   @media (max-width: 800px) {
     margin-bottom: 50px;
   }

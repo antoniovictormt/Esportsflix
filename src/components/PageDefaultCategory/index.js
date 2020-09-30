@@ -15,7 +15,7 @@ function PageDefaultCategory({ children, paddingAll }) {
           <img className="Logo" src={Logo} alt="Esportsflix Logo" />
         </Link>
 
-        <Button as={Link} className="ButtonLink" to="/register/category">
+        <Button as={Link} className="ButtonLink" to="/register/category" title="Register New Category">
           New Category
         </Button>
       </nav>
