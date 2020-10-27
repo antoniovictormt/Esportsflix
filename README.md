@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#movie_camera-view">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#movie_camera-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#file_folder-demo-website">Demo Website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -23,9 +23,7 @@
 
 ## :movie_camera: Preview
 <p align="center">
-    <video width="320" height="240" autplay> 
-      <source src="./github/esporflix_video.mp4" type="video/mp4">
-    </video>
+     <img width="100%" src="esportflix.gif" alt="Esportflix Preview"> 
 </p>
  
 
@@ -33,7 +31,7 @@
 You can acess the website at:     
 👉  Demo: https://esportflix.vercel.app/
 
-## :books: Technology
+## :books: Technologies
 
 This project was made using the follow technologies:
 
