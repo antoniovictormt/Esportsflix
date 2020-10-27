@@ -364,6 +364,13 @@
       "description": "The third game of the Grand Final The International 2019 between OG vs Liquid Game.",
       "categoryId": 8,
       "id": 40
+    },
+    {
+      "title": "#MundialFortnite - Dia 3: Finais Solo",
+      "url": "https://www.youtube.com/watch?v=yp7sJuRJMGo&t=1s",
+      "description": "No último dia do #MundialFortnite acompanhe nossos craques brasileiros leleo, lasers, kurtz, DK e Nicks lutarem pela última chance de ganhar milhões de reais e se tornarem lendas do Fortnite.",
+      "categoryId": 10,
+      "id": 41
     }
   ]
 }
