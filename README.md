@@ -22,10 +22,7 @@
 </p>
 
 ## :movie_camera: Preview
-<p align="center">
-     <img width="100%" src="esportflix.gif" alt="Esportflix Preview"> 
-</p>
- 
+<img src="esportflix.gif" alt="Esportflix Preview" width="600" />  
 
 ## :file_folder: Demo Website
 You can acess the website at:     
