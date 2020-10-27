@@ -12,7 +12,7 @@ function PageDefaultCategory({ children, paddingAll }) {
     <>
       <nav className="Menu">
         <Link to="/">
-          <img className="Logo" src={Logo} alt="Esportsflix Logo" />
+          <img className="Logo" src={Logo} alt="Esportsflix Logo" title="Esportsflix" />
         </Link>
 
         <Button as={Link} className="ButtonLink" to="/register/category" title="Register New Category">

@@ -80,6 +80,15 @@
         "text": "Tom Clancy's Rainbow Six Siege is an online tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft.",
         "url": "https://en.wikipedia.org/wiki/Tom_Clancy's_Rainbow_Six_Siege"
       }
+    },
+    {
+      "id": 10,
+      "title": "Fortinite",
+      "color": "#383661",
+      "extra_link": {
+        "text": "Fortnite is an online video game developed by Epic Games and released in 2017. Originaly, it was a battle royale game in which up to 100 players fight to be the last person standing",
+        "url": "https://en.wikipedia.org/wiki/Fortnite"
+      }
     }
   ],
   "videos": [
@@ -93,70 +102,63 @@
     {
       "title": "G2 vs. FPX | Finals | 2019 World Championship | G2 Esports vs. FunPlus Phoenix",
       "url": "https://www.youtube.com/watch?v=ojes5ULOqhc",
-      "description": "20,19 League of Legends World Championship Finals between G2 Esports vs. FunPlus Phoenix",
+      "description": "2019 League of Legends World Championship Finals between G2 Esports vs. FunPlus Phoenix",
       "categoryId": 1,
       "id": 2
     },
     {
       "title": "FNC vs. IG | Finals | World Championship | Fnatic vs. Invictus Gaming (2018)",
       "url": "https://www.youtube.com/watch?v=kLM4Pah5BOg",
-      "description": "20,18 League of Legends World Championship Finals between Fnatic vs. Invictus Gaming",
+      "description": "2018 League of Legends World Championship Finals between Fnatic vs. Invictus Gaming",
       "categoryId": 1,
       "id": 3
     },
     {
       "title": "SKT vs SSG Grand-Final ALL GAMES FULL | World Championship 2017 | SK Telecom T1 vs Samsung Galaxy",
       "url": "https://www.youtube.com/watch?v=Wq_vctA-v5M",
-      "description": "20,17 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
+      "description": "2017 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
       "categoryId": 1,
       "id": 4
     },
     {
       "title": "SKT vs SSG All Games Worlds Final, S6 Worlds 2016 Grand Final SK Telecom T1 vs Samsung Galaxy",
-      "url": "https://www.youtube.com/watch?v=wT_uHyOJOMQ",
-      "description": "20,16 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
+      "url": "https://www.youtube.com/watch?v=lPNh-adaiPE",
+      "description": "2016 League of Legends World Championship Finals between SK Telecom T1 vs Samsung Galaxy",
       "categoryId": 1,
       "id": 5
     },
     {
       "title": "SKT vs KOO Worlds FINAL All Games - Full Stream SK Telecom T1 v Koo Tigers World Championship",
-      "url": "https://www.youtube.com/watch?v=_nVEuGf3ya8",
-      "description": "20,15 League of Legends World Championship Finals between SK Telecom T1 vs Koo Tigers",
+      "url": "https://www.youtube.com/watch?v=PaKLos707Fo",
+      "description": "2015 League of Legends World Championship Finals between SK Telecom T1 vs Koo Tigers",
       "categoryId": 1,
       "id": 6
     },
     {
       "title": "2014 Worlds Final - Samsung White vs. Star Horn Royal Club - 10/18/14",
       "url": "https://www.youtube.com/watch?v=bY-hTW1W-DU",
-      "description": "20,14 League of Legends World Championship Finals between SK Telecom T1 vs Star Horn Royal Club",
+      "description": "2014 League of Legends World Championship Finals between SK Telecom T1 vs Star Horn Royal Club",
       "categoryId": 1,
       "id": 7
     },
     {
       "title": "Worlds 2013 Final",
       "url": "https://www.youtube.com/watch?v=sGRXIAh41IA",
-      "description": "20,14 League of Legends World Championship Finals between SK Telecom T1 vs Royal Club",
+      "description": "2013 League of Legends World Championship Finals between SK Telecom T1 vs Royal Club",
       "categoryId": 1,
       "id": 8
     },
     {
       "title": "TPA vs. AZF (1080p Full HD) - Grand Finals Game 1 - League Of Legends Season 2 World Championship",
       "url": "https://www.youtube.com/watch?v=AlyqpRhaoj8",
-      "description": "20,14 League of Legends World Championship Finals between Taipei Assassins vs  Azubu Frost",
+      "description": "2012 League of Legends World Championship Finals between Taipei Assassins vs  Azubu Frost",
       "categoryId": 1,
       "id": 9
     },
     {
       "title": "aAa vs fnatic - Grand Final Season 1 Championship",
       "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0",
-      "description": "20,11 League of Legends World Championship Finals between Fnatic vs Against All Authority",
-      "categoryId": 1,
-      "id": 10
-    },
-    {
-      "title": "aAa vs fnatic - Grand Final Season 1 Championship",
-      "url": "https://www.youtube.com/watch?v=bMTI1kYG4h0",
-      "description": "a",
+      "description": "2011 League of Legends World Championship Finals between Fnatic vs Against All Authority",
       "categoryId": 1,
       "id": 10
     },
@@ -287,15 +289,15 @@
       "id": 29
     },
     {
-      "title": "Valorant Esports Tournament Grand Finals - T1 vs TSM (T1 Valorant Showdown)",
-      "url": "https://www.youtube.com/watch?v=zsn21BAuXl4",
+      "title": "TSM vs T1: Grand Finals - VALORANT Showdown (NA Ignition Series Highlights)",
+      "url": "https://www.youtube.com/watch?v=resLOjGgrog",
       "description": "a",
       "categoryId": 6,
       "id": 30
     },
     {
-      "title": "Valorant Esports Tournament - TSM vs FaZe (T1 Valorant Invitational)",
-      "url": "https://www.youtube.com/watch?v=sXbpAWDo2Tw",
+      "title": "TSM vs Sentinels - Grand Finals | Faze Clan Valorant Invitational",
+      "url": "https://www.youtube.com/watch?v=ee-_l9AdzCE",
       "description": "a",
       "categoryId": 6,
       "id": 31
