@@ -22,7 +22,7 @@
 </p>
 
 ## :movie_camera: Preview
-<img src="esportflix.gif" alt="Esportflix Preview" width="600" />  
+![Esporflix preview](/github/esporflix.gif "Esporflix Preview")
 
 ## :file_folder: Demo Website
 You can acess the website at:     
